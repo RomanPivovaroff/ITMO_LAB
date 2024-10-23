@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/1234s/Downloads/ITMO_LAB-Programming-LAB2/Projekt</OriginalElement>
+  <nodes>
+    <node x="39.886402361645935" y="1204.3038835961056">ru.ifmo.se.pokemon.DamageMove</node>
+    <node x="-4.884444834717044" y="1647.6098692919168">Moves.BulletSeed</node>
+    <node x="62.2401897222353" y="1781.255312111855">Moves.Present</node>
+    <node x="-510.1313201550489" y="479.72496207273855">ru.ifmo.se.pokemon.Pokemon</node>
+    <node x="1683.1317589407124" y="1102.7777775140785">ru.ifmo.se.pokemon.FireMove</node>
+    <node x="208.93830458965675" y="1589.0580721932893">Moves.Facade</node>
+    <node x="577.0645807047741" y="1512.4898620412582">Moves.Flamethrower</node>
+    <node x="-284.6303340315161" y="1384.461515390035">Pokemons.Sunflora</node>
+    <node x="-133.9700761702141" y="1155.59700254348">Pokemons.Happiny</node>
+    <node x="1482.8354007098976" y="1309.2483708125287">Moves.Rest</node>
+    <node x="-454.1223352000686" y="1464.0757656735937">Pokemons.Blissey</node>
+    <node x="1271.623619747477" y="1809.8058876134912">Moves.Thunder</node>
+    <node x="1874.6900343885025" y="1261.0629916918506">Moves.SludgeBomb</node>
+    <node x="-462.9659738052262" y="1337.3747932243068">Pokemons.Chansey</node>
+    <node x="-336.9884026006995" y="1643.190071229811">Moves.Stomp</node>
+    <node x="880.2329821046183" y="1660.933532098828">Moves.Growth</node>
+    <node x="566.446962715345" y="1766.752975392315">Moves.ThunderBolt</node>
+    <node x="1240.6705587236252" y="1488.897258868023">Moves.DoubleTeam</node>
+    <node x="-202.023531025103" y="1519.3359094038408">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="-323.17728767052654" y="1201.269942371874">Pokemons.Registeel</node>
+    <node x="-138.59047250871618" y="1294.9792066147756">Pokemons.Sunkern</node>
+    <node x="498.3277575387213" y="1356.9550574138343">ru.ifmo.se.pokemon.SpecialMove</node>
+    <node x="1254.68784251142" y="1212.5633702576442">Main</node>
+    <node x="1658.397948581967" y="1584.9892065771944">Moves.IceBeam</node>
+    <node x="907.1796851655524" y="1363.03568099746">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="56.08580448491443" y="881.7857018222866">ru.ifmo.se.pokemon.Move</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Moves.Rest" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="-12.835400709897613" y="55.499629187471214" />
+      <point x="1635.5" y="1631.0" />
+      <point x="1033.6799999999998" y="1631.0" />
+      <point x="3.1483444752211653E-4" y="55.50031900253998" />
+    </edge>
+    <edge source="Pokemons.Chansey" target="Pokemons.Happiny" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-403.9659738052262" y="1261.769942371874" />
+      <point x="-77.4700761702141" y="1261.769942371874" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.FireMove" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="2.410592876458395E-4" y="31.500222485921483" />
+      <point x="1809.132" y="1293.0" />
+      <point x="857.0" y="1293.0" />
+      <point x="857.0" y="1388.455" />
+      <point x="167.00024246127867" y="-5.741383426993707E-5" />
+    </edge>
+    <edge source="Moves.BulletSeed" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="4.448347170296074E-4" y="31.500130708083134" />
+      <point x="71.61599999999999" y="1736.0" />
+      <point x="-61.5" y="1736.0" />
+      <point x="-61.5" y="1613.0" />
+      <point x="-35.024" y="1613.0" />
+      <point x="-4.6897489698949357E-4" y="31.500090596159225" />
+    </edge>
+    <edge source="Moves.Flamethrower" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="126.00041929522587" y="1.3795874178867962E-4" />
+      <point x="857.0" y="1555.99" />
+      <point x="857.0" y="1388.455" />
+      <point x="167.00024246127867" y="-5.741383426993707E-5" />
+    </edge>
+    <edge source="Moves.Thunder" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="3.802525229730236E-4" y="-43.49988761349118" />
+      <point x="1397.624" y="1791.0" />
+      <point x="857.0" y="1791.0" />
+      <point x="857.0" y="1388.455" />
+      <point x="167.00024246127867" y="-5.741383426993707E-5" />
+    </edge>
+    <edge source="Moves.ThunderBolt" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="126.00003728465504" y="2.4607684963484644E-5" />
+      <point x="857.0" y="1810.253" />
+      <point x="857.0" y="1388.455" />
+      <point x="167.00024246127867" y="-5.741383426993707E-5" />
+    </edge>
+    <edge source="Pokemons.Registeel" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="61.00028767052652" y="5.762812577359E-5" />
+      <point x="-169.0" y="1215.27" />
+      <point x="-169.0" y="1183.77" />
+      <point x="-292.131" y="1183.77" />
+      <point x="3.201550489393412E-4" y="307.5000379272615" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.StatusMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="3.1483444752211653E-4" y="-55.49968099746002" />
+      <point x="1033.6799999999998" y="1171.0" />
+      <point x="221.586" y="1171.0" />
+      <point x="1.9551508557924535E-4" y="127.50029817771343" />
+    </edge>
+    <edge source="Pokemons.Sunkern" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="-56.9995274912838" y="-2.0661477549310803E-4" />
+      <point x="-169.0" y="1308.979" />
+      <point x="-169.0" y="1183.77" />
+      <point x="-292.131" y="1183.77" />
+      <point x="3.201550489393412E-4" y="307.5000379272615" />
+    </edge>
+    <edge source="Pokemons.Happiny" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="-56.49992382978593" y="-2.5434800363655086E-6" />
+      <point x="-169.0" y="1169.597" />
+      <point x="-169.0" y="1183.77" />
+      <point x="-292.131" y="1183.77" />
+      <point x="3.201550489393412E-4" y="307.5000379272615" />
+    </edge>
+    <edge source="Moves.Stomp" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="4.026006994308773E-4" y="-43.500071229811056" />
+      <point x="-210.98800000000006" y="1613.0" />
+      <point x="-35.024" y="1613.0" />
+      <point x="-4.6897489698949357E-4" y="31.500090596159225" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.SpecialMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="2.4246127867399991E-4" y="31.49994258616573" />
+      <point x="665.328" y="1486.0" />
+      <point x="238.886" y="1486.0" />
+      <point x="-4.0236164593920876E-4" y="127.50011640389425" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.DamageMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="-4.0236164593920876E-4" y="-127.49988359610575" />
+      <point x="238.886" y="1171.0" />
+      <point x="221.586" y="1171.0" />
+      <point x="1.9551508557924535E-4" y="127.50029817771343" />
+    </edge>
+    <edge source="Pokemons.Blissey" target="Pokemons.Chansey" relationship="GENERALIZATION">
+      <point x="-2.3436386051575937" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.SludgeBomb" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="-126.0000343885024" y="12.18500830814935" />
+      <point x="1831.335" y="1316.748" />
+      <point x="1831.335" y="1293.0" />
+      <point x="857.0" y="1293.0" />
+      <point x="857.0" y="1388.455" />
+      <point x="167.00024246127867" y="-5.741383426993707E-5" />
+    </edge>
+    <edge source="Moves.Growth" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="1.789538168850413E-5" y="-55.49953209882801" />
+      <point x="1045.733" y="1631.0" />
+      <point x="1033.6799999999998" y="1631.0" />
+      <point x="3.1483444752211653E-4" y="55.50031900253998" />
+    </edge>
+    <edge source="Moves.DoubleTeam" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="4.412763748860016E-4" y="55.49974113197709" />
+      <point x="1406.171" y="1631.0" />
+      <point x="1033.6799999999998" y="1631.0" />
+      <point x="3.1483444752211653E-4" y="55.50031900253998" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.PhysicalMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="-4.6897489698949357E-4" y="-31.499909403840775" />
+      <point x="-35.024" y="1486.0" />
+      <point x="238.886" y="1486.0" />
+      <point x="-4.0236164593920876E-4" y="127.50011640389425" />
+    </edge>
+    <edge source="Pokemons.Sunflora" target="Pokemons.Sunkern" relationship="GENERALIZATION">
+      <point x="57.5" y="0.0" />
+      <point x="-81.59047250871618" y="1398.461515390035" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Facade" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="-3.045896567535067E-4" y="55.49992780671084" />
+      <point x="362.938" y="1736.0" />
+      <point x="-61.5" y="1736.0" />
+      <point x="-61.5" y="1613.0" />
+      <point x="-35.024" y="1613.0" />
+      <point x="-4.6897489698949357E-4" y="31.500090596159225" />
+    </edge>
+    <edge source="Moves.Present" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="-1.8972223529090115E-4" y="-43.50031211185478" />
+      <point x="216.24" y="1736.0" />
+      <point x="-61.5" y="1736.0" />
+      <point x="-61.5" y="1613.0" />
+      <point x="-35.024" y="1613.0" />
+      <point x="-4.6897489698949357E-4" y="31.500090596159225" />
+    </edge>
+    <edge source="Moves.IceBeam" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="5.141803285368951E-5" y="43.499793422805624" />
+      <point x="1784.398" y="1791.0" />
+      <point x="857.0" y="1791.0" />
+      <point x="857.0" y="1388.455" />
+      <point x="167.00024246127867" y="-5.741383426993707E-5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.3739658025372311" showDependencies="false" x="634.4564896755162" y="1448.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
