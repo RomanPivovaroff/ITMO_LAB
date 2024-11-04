@@ -1,0 +1,26 @@
+import re
+
+
+def find_cost_BTC(arg):
+    blocks = re.findall(r'<[^<]*>', arg)
+    result = "НИЧЕГО НЕТ"
+    #print(blocks)
+    for block in blocks:
+        print(block)
+        if re.search(r'*btc*|*bitcoin*', block, flags=re.IGNORECASE):
+            result = re.find(r'[1-9]+[.,0-9]', block)
+            if not result:
+                continue
+            else:
+                break
+    return result
+
+
+print(find_cost_BTC('''<meta name="daily_volume" content="В суточным объемом торгов
+₽2,835,029,974,960.63 RUB."/> <meta name="daily_price" content="Мы обновляем
+нашу цену BTC к RUB в режиме реального времени."/> <meta name="daily_price"
+content=" Цена Bitcoin в реальном времени сегодня составляет ₽5,797,806.88
+RUB."/><meta name="daily_price" content="Ethereum стоит на данный момент
+₽229,590,78 RUB."/>
+'''))
+    
