@@ -39,10 +39,10 @@ echo 'weight=227.3 height=71.0 atk=13 def=8' > ursaring2
 chmod 307 breloom4
 chmod 737 breloom4/whimsicott
 chmod 640 breloom4/patrat
-chmod 777 breloom4/crustle
+chmod a=rwx breloom4/crustle
 chmod 404 ferroseed6
 chmod 044 luxio7
-chmod 333 milotic0
+chmod a=wx milotic0
 chmod 750 milotic0/lotad
 chmod 363 milotic0/timburr
 chmod 064 milotic0/zubat
@@ -53,8 +53,8 @@ chmod 537 oddish8
 chmod 752 oddish8/flareon
 chmod 404 oddish8/porygnoz
 chmod 066 oddish8/barboach
-chmod 555 oddish8/electabuzz
-chmod 444 oddish8/ekans
+chmod a=rx oddish8/electabuzz
+chmod a=r oddish8/ekans
 chmod 046 ursaring2
 #блок 3
 ln -f -s ferroseed6 breloom4/patratferroseed
@@ -76,3 +76,8 @@ chmod u-r breloom4
 chmod u+w oddish8
 ln -f luxio7 oddish8/porygnozluxio
 chmod u-w oddish8
+#блок 4
+#1
+wc -m $(ls -dp lab0/* lab0/*/* | grep -v "/$" | grep "/l") | head -1
+#2
+ls -R  breloom4 2> /tmp/errors | grep -v "breloom4" | sort -r
