@@ -1,0 +1,100 @@
+@startuml
+' Определение перечислений
+enum State {
+    WAITING
+    SEARCHING
+    ATTACKED
+    FOUND
+    LOST
+}
+
+' Интерфейс для действий
+interface Action {
+    + performAction(): void
+}
+
+' Абстрактный класс для персонажей
+abstract class Character {
+    - name: String
+    - state: State
+    - location: Location
+    + Character(name: String, location: Location)
+    + toString(): String
+}
+
+' Классы для конкретных персонажей
+class GiantDaughter {
+    + GiantDaughter(name: String, location: Location)
+    + performAction(): void
+}
+
+class Giant {
+    + Giant(name: String, location: Location)
+    + performAction(): void
+}
+
+class Prince {
+    + Prince(name: String, location: Location)
+    + performAction(): void
+}
+
+' Класс для локаций
+class Location {
+    - description: String
+    + Location(description: String)
+    + getDescription(): String
+}
+
+' Классы для объектов окружающей среды
+class Tree {
+    - location: Location
+    + Tree(location: Location)
+    + interact(character: Character): void
+}
+
+class Well {
+    - location: Location
+    + Well(location: Location)
+    + interact(character: Character): void
+}
+
+' Исключение для ситуации, когда персонаж потерян
+class CharacterNotFoundException {
+    + CharacterNotFoundException(message: String)
+    + getMessage(): String
+}
+
+' Добавление record для информации о персонажах
+entity CharacterInfo <<record>> {
+    + name: String
+    + location: String
+    + state: State
+}
+
+' Массив локаций
+class LocationsArray {
+    - locations: Location[]
+    + LocationsArray()
+    + getStartGiantDaugherLocation(): Location
+    + getStartOthersRandomLocation(): Location
+}
+
+' Связи между классами
+Character <|-- GiantDaughter
+Character <|-- Giant
+Character <|-- Prince
+
+' Добавление интерфейса Action
+Action <|.. GiantDaughter : implements
+Action <|.. Giant : implements
+Action <|.. Prince : implements
+
+Character "1" -- "1" Location : has
+Character "1" -- "1..*" Tree : interacts
+Character "1" -- "1..*" Well : interacts
+CharacterNotFoundException ..> Character : throws
+LocationsArray --> "1..*" Location : "contains"
+
+' Связь record с классом Character
+Character --> CharacterInfo : "provides info"
+@enduml
