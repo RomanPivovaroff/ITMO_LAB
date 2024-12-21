@@ -76,6 +76,7 @@ chmod u-r breloom4
 chmod u+w oddish8
 ln -f luxio7 oddish8/porygnozluxio
 chmod u-w oddish8
+cd ..
 #блок 4
 #1 Рекурсивно подсчитать количество символов содержимого файлов из директории lab0,
 #имя которых начинается на 'l', отсортировать вывод по увеличению количества,
@@ -87,19 +88,23 @@ wc -m $(ls -dp lab0/* lab0/*/* | grep -v "/$" | grep "/l") | head -1
 ls -R  breloom4 2> /tmp/errors | grep -v "breloom4" | sort -r
 #3 Рекурсивно вывести содержимое файлов из директории lab0, имя которых заканчивается на 'r',
 #строки отсортировать по имени a->z, ошибки доступа не подавлять и не перенаправлять
-cat lab0/*r lab0/*/*r | sort
+cat lab0/*r | sort
 #4 Вывести содержимое файла luxio7, строки отсортировать по имени a->z, подавить вывод ошибок доступа
 cat lab0/luxio7 2> /dev/null | sort
 #5 Вывести два последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0,
 #список отсортировать по имени a->z, ошибки доступа не подавлять и не перенаправлять
-ls -l lab0/* lab0/*/* | sort -k9 | tail 2
+ls -l lab0/* lab0/*/* | sort -k9 | tail -n 2
 #6 Вывести четыре первых элемента рекурсивного списка имен и атрибутов файлов в директории lab0,
 # заканчивающихся на символ 'z', список отсортировать по убыванию размера, подавить вывод ошибок доступа
-ls -l lab0/* lab0/*/* 2>/dev/null | grep 'z$' | sort -k5nr | head 4
+ls -l lab0/* lab0/*/* 2>/dev/null | grep 'z$' | sort -k5nr | head -n 4
 #блок 5
-rm ferroseed6
-rm oddish8/ekans
-rm Copy_*
-rm oddish8/porygonzlux*
-rm -r oddish8
-rmdir oddish8/electabuzz
+cd lab0
+rm -f  ferroseed6
+chmod u+w oddish8/
+rm -f oddish8/ekans
+chmod u-w oddish8/
+rm -f Copy_*
+rm -f oddish8/porygonzlux*
+chmod u+w oddish8/
+rm -f -r oddish8
+rmdir -f oddish8/electabuzz
