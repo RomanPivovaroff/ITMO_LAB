@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37db50fd-0040-4817-b34c-ddbedefffc2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Events/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Events/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/src/Events/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Events/CharacterInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/src/Events/CharacterInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Events/GiantDaughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/src/Events/GiantDaughter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Events/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/src/Events/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Events/LocationsArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/src/Events/LocationsArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Events/Prince.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/src/Events/Prince.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Events/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/src/Events/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Events/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/src/Events/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekt/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/сценарий.docx" beforeDir="false" afterPath="$PROJECT_DIR$/сценарий.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2qOSqA7z46snfXoRmDrkGJlzUTW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Projekt" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37db50fd-0040-4817-b34c-ddbedefffc2b" name="Default Changelist" comment="" />
+      <created>1734532316875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734532316875</updated>
+    </task>
+    <servers />
+  </component>
+</project>

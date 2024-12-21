@@ -4,7 +4,7 @@ import java.util.Random;
 
 // Класс Принца
 class Prince extends Character {
-    public Prince(String name, Location location) {
+    public Prince(String name, Location location, Location[] locations) {
         super(name, location);
     }
 
@@ -13,7 +13,7 @@ class Prince extends Character {
         System.out.println(name + " ищет дочь великана.");
 
         Random rand = new Random();
-        int event = rand.nextInt(2); // Случайное событие (0 - встречает дочь, 1 - продолжает поиски)
+        int event = rand.nextInt(3); // Случайное событие (0 - встречает дочь, 1 - продолжает поиски)
 
         switch (event) {
             case 0: // Принц находит дочь
@@ -24,7 +24,10 @@ class Prince extends Character {
                 this.state = State.SEARCHING;
                 System.out.println(name + " продолжает искать дочь великана.");
                 break;
-            default:
+            case 2:
+                int death = rand.nextInt(2); // проверка на смерть принца от чудовища
+                if (death == 1) this.state = State.DIED;
+                else this.state = State.SEARCHING;
                 break;
         }
     }

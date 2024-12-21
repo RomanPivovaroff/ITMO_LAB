@@ -2,5 +2,5 @@ package Events;
 
 // Перечисление для возможных состояний персонажей
 enum State {
-    WAITING, SEARCHING, ATTACKED, FOUND, LOST
+    WAITING, SEARCHING, ATTACK, FOUND,  PROTECTED, DIED, LOST
 }

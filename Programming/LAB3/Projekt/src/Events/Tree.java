@@ -1,4 +1,6 @@
-// Класс для Дерева
+package Events;
+
+// Класс для Колодца
 class Tree {
     private Location location;
 
@@ -6,9 +8,7 @@ class Tree {
         this.location = location;
     }
 
-    public void interact(Character character) {
-        if (character instanceof GiantDaughter) {
-            System.out.println(character.name + " забралась на дерево, чтобы подождать.");
-        }
+    public Location interact(Character character) {
+        if (character instanceof GiantDaughter) retrun this.location;
     }
 }

@@ -1,6 +1,6 @@
 package Events;
 
 // Интерфейс для действий персонажей
-interface Action {
-    void performAction();
+interface SearchActions {
+    void Search();
 }

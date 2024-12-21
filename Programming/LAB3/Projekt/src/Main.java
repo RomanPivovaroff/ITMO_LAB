@@ -1,18 +1,19 @@
 import Events.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main() {
         // Локации
-        LocationsArray LocationsArray = new LocationsArray()
+        Location WellLocation = new Location("у старого каменного колодца");
+        Location TreeLocation = new Location("на дереве возле колодца");
+        Location forest = new Location("в лесу");
+        Location Village = new Location("в деревне");
+        Location Mountains = new Location("в горах");
+        Location[] locations_for_prince = {forest, Mountains, WellLocation, TreeLocation};
 
         // Персонажи
-        GiantDaughter giantDaughter = new GiantDaughter("Дочь Великана", LocationsArray.getStartGiantDaugherLocation());
-        Giant giant = new Giant("Великан", LocationsArray.getStartOthersRandomLocation());
-        Prince prince = new Prince("Принц", LocationsArray.getStartOthersRandomLocation());
-
-        // Объекты
-        Tree tree = new Tree(treeLocation);
-        Well well = new Well(wellLocation);
+        GiantDaughter giantDaughter = new GiantDaughter("Дочь Велекана", WellLocation);
+        Giant giant = new Giant("Великан", Mountains);
+        Prince prince = new Prince("Принц", Village, locations_for_prince);
 
         // Симуляция действий
         try {

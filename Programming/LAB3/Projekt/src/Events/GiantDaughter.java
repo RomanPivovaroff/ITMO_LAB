@@ -10,23 +10,20 @@ class GiantDaughter extends Character {
 
     @Override
     public void performAction() {
-        System.out.println(name + " ждет на дереве, опасаясь волков.");
+        System.out.println(this.name + "ждет принца" + this.location.getDescription());
 
         Random rand = new Random();
         int event = rand.nextInt(3); // Случайное событие (0 - нападение, 1 - встреча с принцем, 2 - спокойное ожидание)
 
         switch (event) {
-            case 0: // Нападение волков
-                this.state = State.ATTACKED;
-                System.out.println(name + " была атакована волками!");
+            case 0: // забирается на дерево.
+                this.state = State.PROTECTED;
+                this.location = LocationsArray.getLocation('tree')
+                System.out.println(this.name + "забралась на дерево, чтобы подождать");
                 break;
-            case 1: // Встреча с принцем
-                this.state = State.FOUND;
-                System.out.println(name + " была найдена принцем!");
-                break;
-            case 2: // Спокойное ожидание
+            case 1, 2: // Спокойное ожидание
                 this.state = State.WAITING;
-                System.out.println(name + " продолжает ждать на дереве.");
+                System.out.println(this.name + "продолжает ждать" + this.location.getDescription);
                 break;
             default:
                 break;
