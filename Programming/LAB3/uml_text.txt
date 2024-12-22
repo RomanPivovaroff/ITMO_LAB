@@ -1,11 +1,12 @@
 @startuml
-' Определение перечислений
+' Определение возможных статусов для персонажей
 enum State {
     WAITING
     SEARCHING
-    ATTACKED
+    ATTACK
     FOUND
-    LOST
+    PROTECTED
+    DIED
 }
 
 ' Интерфейс для действий
@@ -19,11 +20,13 @@ abstract class Character {
     - state: State
     - location: Location
     + Character(name: String, location: Location)
+    + getinfo (): CharacterInfo
     + toString(): String
 }
 
 ' Классы для конкретных персонажей
 class GiantDaughter {
+    - locations: Locations[]
     + GiantDaughter(name: String, location: Location)
     + performAction(): void
 }
@@ -34,7 +37,13 @@ class Giant {
 }
 
 class Prince {
+    - locations: Locations[]
     + Prince(name: String, location: Location)
+    + performAction(): void
+}
+
+class Wolf {
+    + Wolf(name: String, location: Location)
     + performAction(): void
 }
 
@@ -45,55 +54,37 @@ class Location {
     + getDescription(): String
 }
 
-' Классы для объектов окружающей среды
-class Tree {
-    - location: Location
-    + Tree(location: Location)
-    + interact(character: Character): void
-}
-
-class Well {
-    - location: Location
-    + Well(location: Location)
-    + interact(character: Character): void
-}
-
 ' Исключение для ситуации, когда персонаж потерян
 class CharacterNotFoundException {
     + CharacterNotFoundException(message: String)
     + getMessage(): String
 }
 
-' Добавление record для информации о персонажах
+'record для информации о персонажах
 entity CharacterInfo <<record>> {
     + name: String
     + location: String
     + state: State
 }
 
-' Массив локаций
-class LocationsArray {
-    - locations: Location[]
-    + LocationsArray()
-    + getStartGiantDaugherLocation(): Location
-    + getStartOthersRandomLocation(): Location
+' Массив волков
+metaclass Wolfs {
+    Wolf[]
 }
 
+class Main {}
 ' Связи между классами
-Character <|-- GiantDaughter
-Character <|-- Giant
-Character <|-- Prince
+Character <|-- GiantDaughter: extends
+Character <|-- Giant: extends
+Character <|-- Prince: extends
+Character <|-- Wolf: extends
 
 ' Добавление интерфейса Action
-Action <|.. GiantDaughter : implements
-Action <|.. Giant : implements
-Action <|.. Prince : implements
+Action <|.. Character: implements
 
 Character "1" -- "1" Location : has
-Character "1" -- "1..*" Tree : interacts
-Character "1" -- "1..*" Well : interacts
 CharacterNotFoundException ..> Character : throws
-LocationsArray --> "1..*" Location : "contains"
+Wolfs --> "1..*" Wolf : "contains"
 
 ' Связь record с классом Character
 Character --> CharacterInfo : "provides info"

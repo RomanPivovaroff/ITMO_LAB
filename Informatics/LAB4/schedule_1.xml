@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<schedule>
+		<Tuesday>
+			<lesson1>
+				<subject>Английский язык A1 (Прак)</subject>
+				<time>11:40-13:10</time>
+				<weeks>2</weeks>
+				<weeks>3</weeks>
+				<weeks>4</weeks>
+				<weeks>5</weeks>
+				<weeks>6</weeks>
+				<weeks>7</weeks>
+				<weeks>8</weeks>
+				<weeks>9</weeks>
+				<weeks>10</weeks>
+				<weeks>11</weeks>
+				<weeks>12</weeks>
+				<weeks>13</weeks>
+				<weeks>14</weeks>
+				<weeks>15</weeks>
+				<weeks>16</weeks>
+				<weeks>17</weeks>
+				<bildings>
+					<street>Ломоносова</street>
+					<number>9</number>
+					<literal>E</literal>
+				</bildings>
+				<format>Очно - дистанционный</format>
+				<teacher>Зельницкая Екатерина Юрьевн</teacher>
+				<room>3202</room>
+			</lesson1>
+			<lesson2>
+				<subject>Английский язык A1 (Прак)</subject>
+				<time>13:30-15:00</time>
+				<weeks>2</weeks>
+				<weeks>3</weeks>
+				<weeks>4</weeks>
+				<weeks>5</weeks>
+				<weeks>6</weeks>
+				<weeks>7</weeks>
+				<weeks>8</weeks>
+				<weeks>9</weeks>
+				<weeks>10</weeks>
+				<weeks>11</weeks>
+				<weeks>12</weeks>
+				<weeks>13</weeks>
+				<weeks>14</weeks>
+				<weeks>15</weeks>
+				<weeks>16</weeks>
+				<weeks>17</weeks>
+				<bildings>
+					<street>Ломоносова</street>
+					<number>9</number>
+					<literal>E</literal>
+				</bildings>
+				<format>Очно - дистанционный</format>
+				<teacher>Зельницкая Екатерина Юрьевн</teacher>
+				<room>3202</room>
+			</lesson2>
+			<lesson3>
+				<subject>Основы дискретной математики (продвинутый уровень) (Лек)</subject>
+				<time>17:00-18:30</time>
+				<weeks>2</weeks>
+				<weeks>3</weeks>
+				<weeks>4</weeks>
+				<weeks>5</weeks>
+				<weeks>6</weeks>
+				<weeks>8</weeks>
+				<weeks>9</weeks>
+				<weeks>10</weeks>
+				<weeks>11</weeks>
+				<weeks>13</weeks>
+				<weeks>14</weeks>
+				<weeks>15</weeks>
+				<weeks>16</weeks>
+				<weeks>17</weeks>
+				<bildings>
+					<street>Кронверкский проспект</street>
+					<number>49</number>
+					<literal>A</literal>
+				</bildings>
+				<format>Очно - дистанционный</format>
+				<teacher>Карпов Дмитрий Валерьевич</teacher>
+				<room>1404</room>
+			</lesson3>
+			<lesson4>
+				<subject>Основы дискретной математики (продвинутый уровень) (Прак)</subject>
+				<time>18:40-20:10</time>
+				<weeks>2</weeks>
+				<weeks>3</weeks>
+				<weeks>4</weeks>
+				<weeks>5</weeks>
+				<weeks>6</weeks>
+				<weeks>8</weeks>
+				<weeks>9</weeks>
+				<weeks>10</weeks>
+				<weeks>11</weeks>
+				<weeks>13</weeks>
+				<weeks>14</weeks>
+				<weeks>15</weeks>
+				<weeks>16</weeks>
+				<weeks>17</weeks>
+				<bildings>
+					<street>Кронверкский проспект</street>
+					<number>49</number>
+					<literal>A</literal>
+				</bildings>
+				<format>Очно - дистанционный</format>
+				<teacher>Карпов Дмитрий Валерьевич</teacher>
+				<room>1404</room>
+			</lesson4>
+		</Tuesday>
+		<Thursday>
+			<lesson1>
+				<subject>Информатика (Лаб)</subject>
+				<time>11:40-13:10</time>
+				<weeks>2</weeks>
+				<weeks>4</weeks>
+				<weeks>6</weeks>
+				<weeks>8</weeks>
+				<weeks>10</weeks>
+				<weeks>12</weeks>
+				<weeks>14</weeks>
+				<weeks>16</weeks>
+				<bildings>
+					<street>Кронверкский проспект</street>
+					<number>49</number>
+					<literal>A</literal>
+				</bildings>
+				<format>Очно - дистанционный</format>
+				<teacher>Авксентьева Елена Юрьевна</teacher>
+				<room>2112</room>
+			</lesson1>
+			<lesson2>
+				<subject>Информатика (Лаб)</subject>
+				<time>13:30-15:00</time>
+				<weeks>2</weeks>
+				<weeks>4</weeks>
+				<weeks>6</weeks>
+				<weeks>8</weeks>
+				<weeks>10</weeks>
+				<weeks>12</weeks>
+				<weeks>14</weeks>
+				<weeks>16</weeks>
+				<bildings>
+					<street>Кронверкский проспект</street>
+					<number>49</number>
+					<literal>A</literal>
+				</bildings>
+				<format>Очно - дистанционный</format>
+				<teacher>Авксентьева Елена Юрьевна</teacher>
+				<room>2112</room>
+			</lesson2>
+		</Thursday>
+	</schedule>
+</root>

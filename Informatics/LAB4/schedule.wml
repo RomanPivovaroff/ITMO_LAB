@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wml>
+	<card id="schedule" title="schedule">
+		<card id="Tuesday" title="Tuesday">
+			<card id="lesson1" title="lesson1">
+				<card id="subject" title="subject">Английский язык A1 (Прак)</card>
+				<card id="time" title="time">11:40-13:10</card>
+				<card id="weeks" title="weeks">
+					<p>2</p>
+					<p>3</p>
+					<p>4</p>
+					<p>5</p>
+					<p>6</p>
+					<p>7</p>
+					<p>8</p>
+					<p>9</p>
+					<p>10</p>
+					<p>11</p>
+					<p>12</p>
+					<p>13</p>
+					<p>14</p>
+					<p>15</p>
+					<p>16</p>
+					<p>17</p>
+				</card>
+				<card id="bildings" title="bildings">
+					<card id="street" title="street">Ломоносова</card>
+					<card id="number" title="number">9</card>
+					<card id="literal" title="literal">E</card>
+				</card>
+				<card id="format" title="format">Очно - дистанционный</card>
+				<card id="teacher" title="teacher">Зельницкая Екатерина Юрьевн</card>
+				<card id="room" title="room">3202</card>
+			</card>
+			<card id="lesson2" title="lesson2">
+				<card id="subject" title="subject">Английский язык A1 (Прак)</card>
+				<card id="time" title="time">13:30-15:00</card>
+				<card id="weeks" title="weeks">
+					<p>2</p>
+					<p>3</p>
+					<p>4</p>
+					<p>5</p>
+					<p>6</p>
+					<p>7</p>
+					<p>8</p>
+					<p>9</p>
+					<p>10</p>
+					<p>11</p>
+					<p>12</p>
+					<p>13</p>
+					<p>14</p>
+					<p>15</p>
+					<p>16</p>
+					<p>17</p>
+				</card>
+				<card id="bildings" title="bildings">
+					<card id="street" title="street">Ломоносова</card>
+					<card id="number" title="number">9</card>
+					<card id="literal" title="literal">E</card>
+				</card>
+				<card id="format" title="format">Очно - дистанционный</card>
+				<card id="teacher" title="teacher">Зельницкая Екатерина Юрьевн</card>
+				<card id="room" title="room">3202</card>
+			</card>
+			<card id="lesson3" title="lesson3">
+				<card id="subject" title="subject">Основы дискретной математики (продвинутый уровень) (Лек)</card>
+				<card id="time" title="time">17:00-18:30</card>
+				<card id="weeks" title="weeks">
+					<p>2</p>
+					<p>3</p>
+					<p>4</p>
+					<p>5</p>
+					<p>6</p>
+					<p>8</p>
+					<p>9</p>
+					<p>10</p>
+					<p>11</p>
+					<p>13</p>
+					<p>14</p>
+					<p>15</p>
+					<p>16</p>
+					<p>17</p>
+				</card>
+				<card id="bildings" title="bildings">
+					<card id="street" title="street">Кронверкский проспект</card>
+					<card id="number" title="number">49</card>
+					<card id="literal" title="literal">A</card>
+				</card>
+				<card id="format" title="format">Очно - дистанционный</card>
+				<card id="teacher" title="teacher">Карпов Дмитрий Валерьевич</card>
+				<card id="room" title="room">1404</card>
+			</card>
+			<card id="lesson4" title="lesson4">
+				<card id="subject" title="subject">Основы дискретной математики (продвинутый уровень) (Прак)</card>
+				<card id="time" title="time">18:40-20:10</card>
+				<card id="weeks" title="weeks">
+					<p>2</p>
+					<p>3</p>
+					<p>4</p>
+					<p>5</p>
+					<p>6</p>
+					<p>8</p>
+					<p>9</p>
+					<p>10</p>
+					<p>11</p>
+					<p>13</p>
+					<p>14</p>
+					<p>15</p>
+					<p>16</p>
+					<p>17</p>
+				</card>
+				<card id="bildings" title="bildings">
+					<card id="street" title="street">Кронверкский проспект</card>
+					<card id="number" title="number">49</card>
+					<card id="literal" title="literal">A</card>
+				</card>
+				<card id="format" title="format">Очно - дистанционный</card>
+				<card id="teacher" title="teacher">Карпов Дмитрий Валерьевич</card>
+				<card id="room" title="room">1404</card>
+			</card>
+		</card>
+		<card id="Thursday" title="Thursday">
+			<card id="lesson1" title="lesson1">
+				<card id="subject" title="subject">Информатика (Лаб)</card>
+				<card id="time" title="time">11:40-13:10</card>
+				<card id="weeks" title="weeks">
+					<p>2</p>
+					<p>4</p>
+					<p>6</p>
+					<p>8</p>
+					<p>10</p>
+					<p>12</p>
+					<p>14</p>
+					<p>16</p>
+				</card>
+				<card id="bildings" title="bildings">
+					<card id="street" title="street">Кронверкский проспект</card>
+					<card id="number" title="number">49</card>
+					<card id="literal" title="literal">A</card>
+				</card>
+				<card id="format" title="format">Очно - дистанционный</card>
+				<card id="teacher" title="teacher">Авксентьева Елена Юрьевна</card>
+				<card id="room" title="room">2112</card>
+			</card>
+			<card id="lesson2" title="lesson2">
+				<card id="subject" title="subject">Информатика (Лаб)</card>
+				<card id="time" title="time">13:30-15:00</card>
+				<card id="weeks" title="weeks">
+					<p>2</p>
+					<p>4</p>
+					<p>6</p>
+					<p>8</p>
+					<p>10</p>
+					<p>12</p>
+					<p>14</p>
+					<p>16</p>
+				</card>
+				<card id="bildings" title="bildings">
+					<card id="street" title="street">Кронверкский проспект</card>
+					<card id="number" title="number">49</card>
+					<card id="literal" title="literal">A</card>
+				</card>
+				<card id="format" title="format">Очно - дистанционный</card>
+				<card id="teacher" title="teacher">Авксентьева Елена Юрьевна</card>
+				<card id="room" title="room">2112</card>
+			</card>
+		</card>
+	</card>
+</wml>
