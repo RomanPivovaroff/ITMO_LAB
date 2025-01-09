@@ -1,5 +1,5 @@
 import Events.*;
-
+//код не работает
 public class Main {
     public static void main() {
         // Локации

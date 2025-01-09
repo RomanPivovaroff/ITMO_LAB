@@ -13,7 +13,7 @@ public class LocationsArray {
         Location Mountains = new Location("в горах");
         Location[] locations = {forest, Village, Mountains, Tree, Well};
     }
-
+    // хрень написал
     public Location getStartGiantDaugherLocation() {
         Random rand = new Random();
         final int START_LOCATION_GIANT_GAUGHER = 4; //  стартовая локция дочери великана

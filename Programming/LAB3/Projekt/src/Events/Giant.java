@@ -29,3 +29,4 @@ class Giant extends Character {
         }
     }
 }
+//Д

@@ -1,5 +1,5 @@
 package Events;
-
+//нафиг не надо
 // Исключение для ситуации, когда персонаж потерян
 class CharacterNotFoundException extends Exception {
     public CharacterNotFoundException(String message) {
@@ -11,3 +11,4 @@ class CharacterNotFoundException extends Exception {
         return "Персонаж не найден: " + super.getMessage();
     }
 }
+//З

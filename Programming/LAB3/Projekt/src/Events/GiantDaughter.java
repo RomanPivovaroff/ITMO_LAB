@@ -30,3 +30,4 @@ class GiantDaughter extends Character {
         }
     }
 }
+//Е

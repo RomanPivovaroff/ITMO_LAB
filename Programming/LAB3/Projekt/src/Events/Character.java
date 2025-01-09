@@ -26,3 +26,4 @@ abstract class Character {
         return name + " находится в " + location.getDescription() + " и в состоянии " + state;
     }
 }
+//П

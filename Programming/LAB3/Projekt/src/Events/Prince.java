@@ -1,7 +1,7 @@
 package Events;
 
 import java.util.Random;
-
+// а у меня тоже был принц в лабе
 // Класс Принца
 class Prince extends Character {
     public Prince(String name, Location location, Location[] locations) {
