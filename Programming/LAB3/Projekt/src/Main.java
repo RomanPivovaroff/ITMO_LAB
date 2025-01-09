@@ -18,7 +18,7 @@ public class Main {
         // Симуляция действий
         try {
             giant.performAction();
-            prince.performAction();
+            prince.Search();
             giantDaughter.performAction();
 
             tree.interact(giantDaughter);

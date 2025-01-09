@@ -1,7 +1,7 @@
 package Events;
 
 // Класс для Локаций
-class Location {
+public class Location {
     private final String description;
 
     public Location(String description) {

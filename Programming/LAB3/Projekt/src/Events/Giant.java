@@ -3,7 +3,7 @@ package Events;
 import java.util.Random;
 
 // Класс Великана
-class Giant extends Character {
+public class Giant extends Character {
     public Giant(String name, Location location) {
         super(name, location);
     }

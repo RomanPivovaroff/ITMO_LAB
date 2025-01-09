@@ -3,7 +3,7 @@ package Events;
 import java.util.Random;
 
 // Класс Дочери Великана
-class GiantDaughter extends Character {
+public class GiantDaughter extends Character {
     public GiantDaughter(String name, Location location) {
         super(name, location);
     }
@@ -18,7 +18,6 @@ class GiantDaughter extends Character {
         switch (event) {
             case 0: // забирается на дерево.
                 this.state = State.PROTECTED;
-                this.location = LocationsArray.getLocation('tree')
                 System.out.println(this.name + "забралась на дерево, чтобы подождать");
                 break;
             case 1, 2: // Спокойное ожидание
