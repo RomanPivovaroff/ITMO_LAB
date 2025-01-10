@@ -1,7 +1,7 @@
 package Events;
 
 // Абстрактный класс для всех персонажей
-abstract class Character {
+public abstract class Character {
     protected String name;
     protected State state;
     protected Location location;
