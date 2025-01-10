@@ -2,8 +2,6 @@ package Events;
 
 // Класс для Колодца
 public class Tree extends Creature{
-    private Location location;
-
     public Tree(Location location) {
         super(location);
     }
@@ -11,7 +9,7 @@ public class Tree extends Creature{
     @Override
     public void interact(Character character) {
         if (character instanceof GiantDaughter) {
-            System.out.println(character.name + "залезла на дерево, чтобы дождаться принца");
+            System.out.println(character.name + " залезла на дерево, чтобы дождаться принца");
             character.location = this.location;
         }
     }

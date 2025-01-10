@@ -29,6 +29,6 @@ public class Location {
     }
     @Override
     public String toString() {
-        return "персонажи будут находится" + description;
+        return "персонажи будут находится " + description;
     }
 }

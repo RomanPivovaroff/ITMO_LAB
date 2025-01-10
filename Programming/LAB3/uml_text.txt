@@ -3,15 +3,16 @@
 enum State {
     WAITING
     SEARCHING
-    ATTACK
+    LOST
     FOUND
     PROTECTED
     DIED
+    AFRAID
 }
 
-' Интерфейс для действий
-interface Action {
-    + performAction(): void
+' Интерфейс для действий поиска
+interface SearchAction {
+    + Search(Location target_location): void
 }
 
 ' Абстрактный класс для персонажей
@@ -24,27 +25,43 @@ abstract class Character {
     + toString(): String
 }
 
+' Абстрактный класс для персонажейАбстрактный класс для всех обектов, взаимодействущих с персоонажами, но не явл. ими
+abstract class Creature{
+    - location: Location
+    + Creature(location: Location)
+    + interact(Character character): void
+}
+
 ' Классы для конкретных персонажей
 class GiantDaughter {
-    - locations: Locations[]
     + GiantDaughter(name: String, location: Location)
     + performAction(): void
 }
 
 class Giant {
+    - GiantLocations: ArrayList<Location>
     + Giant(name: String, location: Location)
     + performAction(): void
+    + Search(Location target_location): void
 }
 
 class Prince {
-    - locations: Locations[]
+    - Princelocations: ArrayList<Location>
+    - strenght: int
     + Prince(name: String, location: Location)
     + performAction(): void
+    + Search(Location target_location): Void
 }
-
+' Классы-наследники Creature 
 class Wolf {
     + Wolf(name: String, location: Location)
-    + performAction(): void
+    + interact(Character character): void
+    + Search(Location target_location): void
+}
+
+class Tree {
+    + Wolf(name: String, location: Location)
+    + interact(Character character): void
 }
 
 ' Класс для локаций
@@ -52,6 +69,9 @@ class Location {
     - description: String
     + Location(description: String)
     + getDescription(): String
+    + equals(Object obj): boolean
+    + hashCode(): int
+    + toString(): String
 }
 
 ' Исключение для ситуации, когда персонаж потерян
@@ -77,10 +97,14 @@ class Main {}
 Character <|-- GiantDaughter: extends
 Character <|-- Giant: extends
 Character <|-- Prince: extends
-Character <|-- Wolf: extends
+Creature <|-- Wolf: extends
+Creature <|-- Tree: extends
 
-' Добавление интерфейса Action
-Action <|.. Character: implements
+' Добавление связи классов и интерфейса SearchAction
+Prince <|.. SearchAction : implements
+Giant <|.. SearchAction : implements
+Wolf <|.. SearchAction : implements
+
 
 Character "1" -- "1" Location : has
 CharacterNotFoundException ..> Character : throws

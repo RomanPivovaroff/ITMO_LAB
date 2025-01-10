@@ -11,7 +11,7 @@ public class Wolf extends Creature implements SearchActions{
         if (character instanceof GiantDaughter) {
             if (character.location.equals(location)) {
                 if (character.state != State.PROTECTED) {
-                    System.out.println("Волк надает на " + character.name + ' ' + location.getDescription());
+                    System.out.println("Волк нападает на " + character.name + ' ' + location.getDescription());
                     character.state = State.DIED;
                 }
             }
@@ -21,8 +21,8 @@ public class Wolf extends Creature implements SearchActions{
     @Override
     public void Search(Location target_location) {
         Random rand = new Random();
-        System.out.println("волк пытается найти пищу " + this.location);
-        int find_trail = rand.nextInt(6); // попытка волка найти след жертвы
+        System.out.println("волк пытается найти пищу " + this.location.getDescription());
+        int find_trail = rand.nextInt(10); // попытка волка найти след жертвы
         if (find_trail == 1) {
             System.out.println("волк что-то почуял.");
             this.location = target_location;
