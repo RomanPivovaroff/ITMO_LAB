@@ -1,12 +1,12 @@
 CREATE OR REPLACE FUNCTION Birthday()
 RETURNS TRIGGER AS $$
 DECLARE
-    last_sensation RECORD;  -- Изменено на RECORD для хранения всей строки
+    last_sensation RECORD;
     last_sensation_date DATE;
     new_sensation_id INTEGER;
 BEGIN
     IF NEW.age <> OLD.age THEN
-        -- Получаем последнее ощущение для этого человека
+        -- Получаем последнее Sensation для этого Human.id
         SELECT Sensation.* INTO last_sensation
         FROM Human 
         JOIN Sensation_to_Human ON Human.id = Sensation_to_Human.human_id
@@ -15,14 +15,14 @@ BEGIN
         ORDER BY Sensation.now_date DESC, Sensation.now_time DESC
         LIMIT 1;
         
-        -- Определяем дату(последняя дата + 1) для нового ощущения
+        -- Определяем дату(последняя дата + 1) для нового sensation
         IF last_sensation IS NULL THEN
             last_sensation_date := CURRENT_DATE;
         ELSE
             last_sensation_date := last_sensation.now_date;
         END IF;
         
-        -- Проверяем возраст и вставляем соответствующее ощущение
+        -- Проверяем возраст и вставляем соответствующее sensation
         IF NEW.age > 18 THEN
             INSERT INTO Sensation (fall_derection, emotion, now_time, now_date, location_id, visible_light_id)
             VALUES (
@@ -47,7 +47,7 @@ BEGIN
             RETURNING id INTO new_sensation_id;
         END IF;
         
-        -- Связываем новое ощущение с человеком
+        -- Связываем новое sensation с человеком
         INSERT INTO Sensation_to_Human (sensation_id, human_id) 
         VALUES (new_sensation_id, NEW.id);
     END IF;
