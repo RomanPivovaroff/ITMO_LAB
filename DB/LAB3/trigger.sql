@@ -5,7 +5,7 @@ DECLARE
     last_sensation_date DATE;
     new_sensation_id INTEGER;
 BEGIN
-    IF NEW.age <> OLD.age THEN
+    IF NEW.age > OLD.age THEN
         -- Получаем последнее Sensation для этого Human.id
         SELECT Sensation.* INTO last_sensation
         FROM Human 
