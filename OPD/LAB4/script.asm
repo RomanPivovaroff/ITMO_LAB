@@ -1,0 +1,58 @@
+org 0x000
+word 0x0001
+word 0x0002
+word 0x0003
+word 0x0004
+word 0x000A
+word 0x000F
+; Переменные
+TEMP_SUM: word 0;
+TEMP_LEFT: word 0;
+TEMP_RIGHT: word 0;
+IND: word 0;
+LENGHT: word 6;
+
+org 0x01A
+START: 
+ADD IND
+CALL SUMTREE
+ST 0x019     
+HLT
+
+org 0x02A
+SUMTREE:
+	CMP LENGHT
+	BGE END_ZERO
+
+	ST IND
+	LD (IND)
+	PUSH
+	
+	LD IND
+	PUSH
+	ASL
+	INC
+	CALL SUMTREE
+	ST TEMP_SUM
+	POP
+	ST IND
+	POP
+	ADD TEMP_SUM
+	PUSH
+	
+	LD IND
+	PUSH
+	INC
+	ASL
+	CALL SUMTREE
+	ST TEMP_SUM
+	POP
+	ST IND
+	POP
+	ADD TEMP_SUM
+	
+	RET
+	
+END_ZERO:
+        LD #00
+        RET
