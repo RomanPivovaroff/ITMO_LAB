@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="WebLab3" default="build" basedir=".">
+
+    <!-- Загрузка параметров из внешнего файла -->
+    <property file="build.properties"/>
+
+    <!-- Путь к библиотекам для компиляции -->
+    <path id="compile.classpath">
+        <fileset dir="${lib.compile}" includes="**/*.jar" erroronmissingdir="false"/>
+    </path>
+
+    <!-- Путь к библиотекам для тестов -->
+    <path id="test.classpath">
+		<path refid="compile.classpath"/>
+		<pathelement location="${dir.classes}"/>
+		<pathelement location="${dir.test.classes}"/>
+		<fileset dir="${lib.runtime}" includes="**/*.jar" erroronmissingdir="false"/>
+		<fileset dir="${lib.test}" includes="**/*.jar" erroronmissingdir="false"/>
+    </path>
+
+    <!-- compile — компиляция исходных кодов -->
+    <target name="compile" description="Компиляция исходных кодов проекта">
+        <mkdir dir="${dir.classes}"/>
+        <javac
+            srcdir="${dir.src}"
+            destdir="${dir.classes}"
+            source="${javac.source}"
+            target="${javac.target}"
+            encoding="${javac.encoding}"
+            debug="${javac.debug}"
+            includeantruntime="false">
+            <classpath refid="compile.classpath"/>
+        </javac>
+        <!-- Копируем ресурсы -->
+        <copy todir="${dir.classes}">
+            <fileset dir="${dir.resources}" includes="**/*" erroronmissingdir="false"/>
+        </copy>
+        <echo message="[compile] Компиляция завершена успешно."/>
+    </target>
+
+    <!-- 
+         build — сборка WAR-архива (вызывает compile)
+    -->
+    <target name="build" depends="compile" description="Сборка WAR-архива">
+        <mkdir dir="${dir.dist}"/>
+
+        <!-- Формируем MANIFEST.MF -->
+        <manifest file="${dir.build}/MANIFEST.MF">
+            <attribute name="Manifest-Version"     value="1.0"/>
+            <attribute name="Implementation-Title"  value="${manifest.title}"/>
+            <attribute name="Implementation-Version" value="${manifest.version}"/>
+            <attribute name="Implementation-Vendor" value="${manifest.vendor}"/>
+            <attribute name="Built-By"             value="${user.name}"/>
+            <attribute name="Build-Jdk"            value="${java.version}"/>
+        </manifest>
+
+        <!-- Собираем WAR -->
+        <war destfile="${war.path}" webxml="${dir.webapp}/WEB-INF/web.xml"
+             manifest="${dir.build}/MANIFEST.MF">
+            <fileset dir="${dir.webapp}">
+                <exclude name="WEB-INF/web.xml"/>
+            </fileset>
+            <classes dir="${dir.classes}"/>
+            <lib dir="${lib.runtime}" erroronmissingdir="false">
+                <include name="**/*.jar"/>
+            </lib>
+            <metainf dir="${dir.resources}/META-INF" erroronmissingdir="false"/>
+        </war>
+
+        <echo message="[build] WAR собран: ${war.path}"/>
+        <antcall target="music"/>
+    </target>
+
+    <!-- 
+         clean — удаление скомпилированных классов и временных файлов
+    -->
+    <target name="clean" description="Удаление скомпилированных классов и временных файлов">
+        <delete dir="${dir.build}"/>
+        <delete dir="${dir.dist}"/>
+        <delete dir="${dir.alt}"/>
+        <echo message="[clean] Временные файлы удалены."/>
+    </target>
+
+    <!-- 
+         test — запуск JUnit-тестов (предварительно вызывает build)
+    -->
+    <target name="test" depends="build" description="Запуск JUnit-тестов">
+        <mkdir dir="${dir.test.classes}"/>
+        <mkdir dir="${dir.test.reports}"/>
+
+        <!-- Компилируем тесты -->
+        <javac
+            srcdir="${dir.test.src}"
+            destdir="${dir.test.classes}"
+            source="${javac.source}"
+            target="${javac.target}"
+            encoding="${javac.encoding}"
+            includeantruntime="false">
+            <classpath refid="test.classpath"/>
+        </javac>
+
+        <!-- Запускаем тесты -->
+        <junit printsummary="yes"
+               haltonerror="${junit.haltonerror}"
+               haltonfailure="${junit.haltonfailure}"
+               fork="${junit.fork}">
+            <classpath refid="test.classpath"/>
+            <formatter type="xml"/>
+            <batchtest todir="${dir.test.reports}">
+                <fileset dir="${dir.test.classes}" includes="**/*Test.class"/>
+            </batchtest>
+        </junit>
+
+        <echo message="[test] Тесты завершены. Отчёты: ${dir.test.reports}"/>
+    </target>
+
+    <!-- 
+         music — воспроизведение музыки по завершению сборки
+    -->
+    <target name="music" description="Воспроизведение музыки по завершению сборки">
+        <available file="${basedir}/${music.file}" property="music.exists"/>
+        <antcall target="music.play"/>
+    </target>
+
+    <target name="music.play" if="music.exists">
+        <sound>
+            <success source="${basedir}/${music.file}"/>
+        </sound>
+        <echo message="[music] Воспроизведение: ${music.file}"/>
+    </target>
+
+    <!-- 
+         doc — генерация Javadoc + MD5/SHA-1 в MANIFEST.MF
+    -->
+    <target name="doc" depends="build" description="Генерация Javadoc и добавление хешей в манифест">
+        <mkdir dir="${dir.javadoc}"/>
+
+        <!-- Генерируем Javadoc -->
+        <javadoc
+            sourcepath="${dir.src}"
+            destdir="${dir.javadoc}"
+            encoding="${javac.encoding}"
+            docencoding="UTF-8"
+            charset="UTF-8"
+            author="true"
+            version="true"
+            windowtitle="${project.name} ${project.version} API">
+            <classpath refid="compile.classpath"/>
+            <packageset dir="${dir.src}" defaultexcludes="yes"/>
+        </javadoc>
+
+        <!-- Вычисляем MD5 и SHA-1 WAR-файла -->
+        <checksum file="${war.path}" algorithm="MD5"  property="war.md5"/>
+        <checksum file="${war.path}" algorithm="SHA-1" property="war.sha1"/>
+
+        <!-- Добавляем хеши в манифест и переупаковываем WAR -->
+        <manifest file="${dir.build}/MANIFEST.MF" mode="update">
+            <attribute name="WAR-MD5"  value="${war.md5}"/>
+            <attribute name="WAR-SHA1" value="${war.sha1}"/>
+        </manifest>
+
+        <!-- Добавляем Javadoc и обновлённый манифест в WAR -->
+        <zip destfile="${war.path}" update="true">
+            <zipfileset dir="${dir.javadoc}" prefix="javadoc"/>
+            <zipfileset file="${dir.build}/MANIFEST.MF" fullpath="META-INF/MANIFEST.MF"/>
+        </zip>
+
+        <echo message="[doc] Javadoc сгенерирован. MD5=${war.md5} SHA1=${war.sha1}"/>
+    </target>
+
+    <!-- 
+         xml — валидация всех XML-файлов проекта
+    -->
+    <target name="xml" description="Валидация XML-файлов проекта">
+        <xmlvalidate failonerror="true" lenient="false" warn="true">
+            <fileset dir="${dir.webapp}">
+                <include name="**/*.xml"/>
+                <include name="**/*.xhtml"/>
+            </fileset>
+            <fileset dir="${dir.resources}">
+                <include name="**/*.xml"/>
+            </fileset>
+        </xmlvalidate>
+        <echo message="[xml] Все XML-файлы прошли валидацию."/>
+    </target>
+
+    <!-- 
+         scp — копирование WAR на удалённый сервер (вызывает build)
+    -->
+    <target name="scp" depends="build" description="Копирование WAR на сервер по SCP">
+        <scp
+            file="${war.path}"
+            todir="${scp.user}@${scp.host}:${scp.remotedir}"
+            keyfile="${scp.keyfile}"
+            port="${scp.port}"
+            trust="true"/>
+        <echo message="[scp] WAR отправлен на ${scp.host}:${scp.remotedir}"/>
+    </target>
+
+    <!-- 
+         native2ascii — конвертация файлов локализации
+    -->
+    <target name="native2ascii" description="Конвертация файлов локализации в ASCII">
+        <mkdir dir="${dir.i18n.ascii}"/>
+        <native2ascii
+            encoding="UTF-8"
+            src="${dir.resources}"
+            dest="${dir.i18n.ascii}"
+            includes="**/*.properties"/>
+        <echo message="[native2ascii] Файлы локализации сконвертированы в: ${dir.i18n.ascii}"/>
+    </target>
+
+    <!-- 
+         alt — альтернативная версия с заменой имён классов/переменных
+    -->
+    <target name="alt" description="Создание альтернативной версии с заменёнными именами">
+        <mkdir dir="${dir.alt.src}"/>
+
+        <!-- Копируем исходники в alt/src -->
+        <copy todir="${dir.alt.src}">
+            <fileset dir="${dir.src}" includes="**/*.java"/>
+        </copy>
+
+        <!-- Заменяем имя класса -->
+        <replaceregexp
+            match="${alt.replace.from.class}"
+            replace="${alt.replace.to.class}"
+            flags="g"
+            byline="false">
+            <fileset dir="${dir.alt.src}" includes="**/*.java"/>
+        </replaceregexp>
+
+        <!-- Заменяем имя переменной -->
+        <replaceregexp
+            match="${alt.replace.from.var}"
+            replace="${alt.replace.to.var}"
+            flags="g"
+            byline="false">
+            <fileset dir="${dir.alt.src}" includes="**/*.java"/>
+        </replaceregexp>
+
+        <!-- Компилируем alt-версию -->
+        <mkdir dir="${dir.alt.classes}"/>
+        <javac
+            srcdir="${dir.alt.src}"
+            destdir="${dir.alt.classes}"
+            source="${javac.source}"
+            target="${javac.target}"
+            encoding="${javac.encoding}"
+            includeantruntime="false">
+            <classpath refid="compile.classpath"/>
+        </javac>
+
+        <!-- Собираем alt WAR -->
+        <mkdir dir="${dir.alt.dist}"/>
+        <war destfile="${war.alt.path}" webxml="${dir.webapp}/WEB-INF/web.xml">
+            <fileset dir="${dir.webapp}">
+                <exclude name="WEB-INF/web.xml"/>
+            </fileset>
+            <classes dir="${dir.alt.classes}"/>
+            <lib dir="${lib.runtime}" erroronmissingdir="false">
+                <include name="**/*.jar"/>
+            </lib>
+        </war>
+
+        <echo message="[alt] Альтернативная версия собрана: ${war.alt.path}"/>
+    </target>
+
+    <!-- 
+         report — сохранение JUnit-отчёта и git commit (если тесты прошли)
+    -->
+    <target name="report" depends="test" description="Сохранение JUnit-отчёта в Git">
+        <!-- Проверяем наличие отчётов -->
+        <available file="${dir.test.reports}" type="dir" property="reports.exist"/>
+
+        <antcall target="report.commit"/>
+    </target>
+
+    <target name="report.commit" if="reports.exist">
+        <exec executable="${git.executable}" failonerror="true">
+            <arg value="add"/>
+            <arg value="${dir.test.reports}"/>
+        </exec>
+        <exec executable="${git.executable}" failonerror="true">
+            <arg value="commit"/>
+            <arg value="-m"/>
+            <arg value="${git.commit.message}"/>
+        </exec>
+        <echo message="[report] Отчёт JUnit добавлен в Git и закоммичен."/>
+    </target>
+
+    <!-- 
+         env — сборка и запуск в альтернативных окружениях
+    -->
+    <target name="env" depends="build" description="Сборка и запуск в альтернативных окружениях">
+        <!-- Окружение 1 -->
+        <echo message="[env] Запуск в окружении 1: ${env.1.java}"/>
+        <exec executable="${env.1.java}" failonerror="false">
+            <arg line="${env.1.jvmargs}"/>
+            <arg value="-version"/>
+        </exec>
+
+        <!-- Окружение 2 -->
+        <echo message="[env] Запуск в окружении 2: ${env.2.java}"/>
+        <exec executable="${env.2.java}" failonerror="false">
+            <arg line="${env.2.jvmargs}"/>
+            <arg value="-version"/>
+        </exec>
+
+        <echo message="[env] Проверка окружений завершена."/>
+    </target>
+
+    <!-- 
+         diff — проверка SVN-статуса и условный коммит
+    -->
+    <target name="diff" description="Проверка SVN-изменений и условный коммит">
+        <!-- Получаем список изменённых файлов -->
+        <exec executable="${svn.executable}" outputproperty="svn.status.output" failonerror="true">
+            <arg value="status"/>
+        </exec>
+        <echo message="[diff] SVN статус:${line.separator}${svn.status.output}"/>
+
+        <!-- Проверяем, касаются ли изменения исключённых классов -->
+        <condition property="svn.safe.to.commit">
+            <not>
+                <contains string="${svn.status.output}" substring="${svn.excluded.classes}"/>
+            </not>
+        </condition>
+
+        <antcall target="diff.commit"/>
+        <antcall target="diff.skip"/>
+    </target>
+
+    <target name="diff.commit" if="svn.safe.to.commit">
+        <exec executable="${svn.executable}" failonerror="true">
+            <arg value="add"/>
+            <arg value="--force"/>
+            <arg value="."/>
+        </exec>
+        <exec executable="${svn.executable}" failonerror="true">
+            <arg value="commit"/>
+            <arg value="-m"/>
+            <arg value="Auto-commit: changes do not affect excluded classes [Ant]"/>
+        </exec>
+        <echo message="[diff] SVN коммит выполнен успешно."/>
+    </target>
+
+    <target name="diff.skip" unless="svn.safe.to.commit">
+        <echo message="[diff] Коммит пропущен: изменения затрагивают исключённые классы (${svn.excluded.classes})."/>
+    </target>
+
+    <!-- 
+         history — откат по SVN до последней компилируемой ревизии
+    -->
+    <target name="history" description="Поиск последней компилируемой SVN-ревизии">
+        <!-- Получаем номер последней ревизии -->
+        <exec executable="${svn.executable}" outputproperty="svn.info.output" failonerror="true">
+            <arg value="info"/>
+            <arg value="--show-item"/>
+            <arg value="revision"/>
+        </exec>
+
+        <echo message="[history] Текущая ревизия: ${svn.info.output}"/>
+        <echo message="[history] Попытка компиляции текущей версии..."/>
+
+        <!-- Пробуем скомпилировать -->
+        <antcall target="history.try.compile"/>
+    </target>
+
+    <target name="history.try.compile">
+        <trycatch>
+            <try>
+                <antcall target="compile"/>
+                <echo message="[history] Компиляция успешна для текущей ревизии."/>
+            </try>
+            <catch>
+                <echo message="[history] Компиляция не удалась. Откат к предыдущей ревизии..."/>
+                <exec executable="${svn.executable}" failonerror="true">
+                    <arg value="update"/>
+                    <arg value="-r"/>
+                    <arg value="PREV"/>
+                </exec>
+                <!-- Получаем diff между текущей и следующей ревизией -->
+                <exec executable="${svn.executable}" outputproperty="svn.diff.output" failonerror="false">
+                    <arg value="diff"/>
+                    <arg value="-r"/>
+                    <arg value="PREV:HEAD"/>
+                </exec>
+                <echo file="${dir.build}/last-working-diff.txt" message="${svn.diff.output}"/>
+                <echo message="[history] Diff сохранён в ${dir.build}/last-working-diff.txt"/>
+                <antcall target="history.try.compile"/>
+            </catch>
+        </trycatch>
+    </target>
+
+    <!-- 
+         team — получение 4 предыдущих git-ревизий, сборка и упаковка
+    -->
+    <target name="team" description="Сборка 4 предыдущих git-ревизий и упаковка в ZIP">
+        <mkdir dir="${dir.dist}/team-builds"/>
+
+        <!-- Получаем хеши последних N коммитов -->
+        <exec executable="${git.executable}" outputproperty="git.log.output" failonerror="true">
+            <arg value="log"/>
+            <arg value="--pretty=format:%H"/>
+            <arg value="-${team.revisions.count}"/>
+        </exec>
+
+        <echo message="[team] Ревизии для сборки:${line.separator}${git.log.output}"/>
+
+        <!-- Для каждой ревизии: checkout -> build -> сохранить WAR -->
+        <script language="javascript"><![CDATA[
+            var revisions = project.getProperty("git.log.output").split("\n");
+            var git = project.getProperty("git.executable");
+            var distDir = project.getProperty("dir.dist") + "/team-builds";
+            var warName = project.getProperty("war.name");
+
+            for (var i = 0; i < revisions.length; i++) {
+                var rev = revisions[i].trim();
+                if (rev.length === 0) continue;
+                var shortRev = rev.substring(0, 7);
+
+                // Checkout ревизии
+                var checkout = project.createTask("exec");
+                checkout.setExecutable(git);
+                checkout.createArg().setValue("checkout");
+                checkout.createArg().setValue(rev);
+                checkout.setFailonerror(false);
+                checkout.execute();
+
+                // Сборка
+                var antcall = project.createTask("antcall");
+                antcall.setTarget("build");
+                antcall.execute();
+
+                // Копируем WAR с именем ревизии
+                var copy = project.createTask("copy");
+                copy.setFile(new java.io.File(project.getProperty("war.path")));
+                copy.setTofile(new java.io.File(distDir + "/" + project.getProperty("project.name") + "-" + shortRev + ".war"));
+                copy.setOverwrite(true);
+                copy.execute();
+
+                self.log("[team] Ревизия " + shortRev + " собрана.");
+            }
+
+            // Возвращаемся на master
+            var checkout = project.createTask("exec");
+            checkout.setExecutable(git);
+            checkout.createArg().setValue("checkout");
+            checkout.createArg().setValue(project.getProperty("git.branch"));
+            checkout.setFailonerror(false);
+            checkout.execute();
+        ]]></script>
+
+        <!-- Упаковываем все WAR в ZIP -->
+        <zip destfile="${zip.team.path}">
+            <fileset dir="${dir.dist}/team-builds" includes="**/*.war"/>
+        </zip>
+
+        <echo message="[team] Все ревизии упакованы в: ${zip.team.path}"/>
+    </target>
+
+</project>
