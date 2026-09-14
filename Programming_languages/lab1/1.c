@@ -21,6 +21,7 @@ int main(int argc,  char * argv[])
     printf("encrypt = %s\n", word);
     decrypt(word, shift);
     printf("encrypt = %s", word);
+    printf(-10 % 2);
     return 0;
 }
 

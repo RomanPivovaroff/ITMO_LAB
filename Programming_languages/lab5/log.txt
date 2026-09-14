@@ -1,0 +1,800 @@
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 37, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 37, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 105, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 37, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 105, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует артефакт 
+[Name = Wizard, HP = 47, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 66, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 66, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 66, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 80, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] использует артефакт 
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 36, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 45, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 45, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] восстанваливет 40 HP
+[Name = Wizard, HP = 66, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 45, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 45, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 40, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 45, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 25, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 45, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] использует артефакт 
+[Name = Bolwanchik, HP = 15, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = -5, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = -5, Attack = 1, Defense = 0, ex = 4] умирает
+Bolwanchik теряет 15 HP
+Wizard восстанваливет 0 HP
+Wizard теряет 1 HP
+Bolwanchik восстанваливет 0 HP
+Bolwanchik теряет 10 HP
+Warrior восстанваливет 0 HP
+Warrior теряет 10 HP
+Wizard восстанваливет 0 HP
+Warrior теряет 0 HP
+Bolwanchik восстанваливет 0 HP
+Wizard использует особую способность
+Warrior теряет 0 HP
+Wizard восстанваливет 20 HP
+Wizard теряет 10 HP
+Warrior восстанваливет 0 HP
+Wizard использует артефакт HealingPotion
+Bolwanchik теряет 15 HP
+Wizard восстанваливет 20 HP
+Warrior теряет 10 HP
+Wizard восстанваливет 0 HP
+Warrior использует особую способность
+Bolwanchik теряет 20 HP
+Warrior восстанваливет 0 HP
+Bolwanchik использует особую способность
+Wizard теряет 0 HP
+Bolwanchik восстанваливет 20 HP
+Bolwanchik использует артефакт 
+Wizard теряет 1 HP
+Bolwanchik восстанваливет 0 HP
+Wizard использует особую способность
+Warrior теряет 0 HP
+Wizard восстанваливет 20 HP
+Wizard теряет 1 HP
+Bolwanchik восстанваливет 0 HP
+Warrior использует артефакт 
+Wizard теряет 10 HP
+Warrior восстанваливет 0 HP
+Bolwanchik теряет 15 HP
+Wizard восстанваливет 0 HP
+Bolwanchik использует особую способность
+Warrior теряет 0 HP
+Bolwanchik восстанваливет 20 HP
+Warrior теряет 10 HP
+Wizard восстанваливет 0 HP
+Wizard теряет 1 HP
+Bolwanchik восстанваливет 0 HP
+Wizard использует артефакт HealingPotion
+Wizard использует особую способность
+Bolwanchik теряет 0 HP
+Wizard восстанваливет 40 HP
+Bolwanchik теряет 10 HP
+Warrior восстанваливет 0 HP
+Warrior теряет 10 HP
+Wizard восстанваливет 0 HP
+Warrior умирает
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 28, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует артефакт 
+[Name = Wizard, HP = 18, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 8, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 28, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 28, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 18, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] использует артефакт 
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 45, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 58, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 58, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 36, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 16, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 45, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] использует артефакт 
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 20, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 16, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 36, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 20, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] восстанваливет 40 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 0, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 0, Attack = 10, Defense = 5, ex = 4] умирает
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 29, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 29, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Wizard, HP = 28, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 18, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = -2, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = -2, Attack = 15, Defense = 0, ex = 4] умирает
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 80, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 80, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 20, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 80, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 80, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Wizard, HP = 48, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 28, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 8, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 7, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 7, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 6, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 5, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Bolwanchik, HP = 130, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 130, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 115, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 5, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = -5, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = -5, Attack = 15, Defense = 0, ex = 4] умирает
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 29, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 115, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 115, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 29, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 115, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 37, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 115, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 115, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Bolwanchik, HP = 135, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 135, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Bolwanchik, HP = 125, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 47, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 47, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 47, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 37, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 80, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 47, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 67, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 67, Attack = 15, Defense = 0, ex = 4] восстанваливет 30 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 80, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Wizard, HP = 55, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 55, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 45, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 45, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 35, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 25, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 34, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 25, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 15, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 54, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 15, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 54, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 15, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 34, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 70, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 24, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 70, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 24, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 34, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 34, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 54, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 54, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 20, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 54, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 40, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 54, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 40, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 53, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 40, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 53, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 43, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 23, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 22, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 42, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 42, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 32, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 12, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 20, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 20, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Bolwanchik, HP = 40, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 12, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 40, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 22, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 22, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 10, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = -5, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 22, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = -5, Attack = 1, Defense = 0, ex = 4] умирает
+[Name = Wizard, HP = 30, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 30, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 30, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 50, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 50, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Bolwanchik, HP = 45, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 69, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 69, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 15, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 69, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 15, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 15, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 69, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 69, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 89, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 89, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 99, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 99, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Wizard, HP = 98, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 98, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 98, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 88, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 108, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 108, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 40, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 108, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 0, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 108, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 0, Attack = 10, Defense = 5, ex = 4] умирает
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 30, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 20, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 20, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 40, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 50, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 50, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Wizard, HP = 49, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 59, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 59, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 58, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 58, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 66, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 66, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 95, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 115, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 115, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 80, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 80, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 56, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Wizard, HP = 36, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Wizard, HP = 16, Attack = 15, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 75, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 26, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 46, Attack = 15, Defense = 0, ex = 4] восстанваливет 30 HP
+[Name = Wizard, HP = 45, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 45, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 45, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Wizard, HP = 44, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 55, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 45, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 44, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 44, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 43, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 42, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 30, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 35, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 42, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 62, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 50, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 62, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Bolwanchik, HP = 20, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 62, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 72, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 72, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Bolwanchik, HP = 10, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 10, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 10, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 92, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 92, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] использует артефакт HealingPotion
+[Name = Wizard, HP = 82, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = -10, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 60, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = -10, Attack = 1, Defense = 0, ex = 4] умирает
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 40, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 90, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 110, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 39, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 100, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 38, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] использует артефакт 
+[Name = Wizard, HP = 37, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 85, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 65, Attack = 1, Defense = 0, ex = 4] теряет 20 HP
+[Name = Warrior, HP = 30, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 47, Attack = 15, Defense = 0, ex = 4] теряет 10 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] использует артефакт HealingPotion
+[Name = Bolwanchik, HP = 50, Attack = 1, Defense = 0, ex = 4] теряет 15 HP
+[Name = Wizard, HP = 57, Attack = 15, Defense = 0, ex = 4] восстанваливет 10 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] использует особую способность
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 20, Attack = 10, Defense = 5, ex = 4] теряет 0 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 77, Attack = 15, Defense = 0, ex = 4] использует особую способность
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] теряет 0 HP
+[Name = Wizard, HP = 77, Attack = 15, Defense = 0, ex = 4] восстанваливет 20 HP
+[Name = Warrior, HP = 10, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 77, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] теряет 1 HP
+[Name = Bolwanchik, HP = 70, Attack = 1, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 0, Attack = 10, Defense = 5, ex = 4] теряет 10 HP
+[Name = Wizard, HP = 76, Attack = 15, Defense = 0, ex = 4] восстанваливет 0 HP
+[Name = Warrior, HP = 0, Attack = 10, Defense = 5, ex = 4] умирает
